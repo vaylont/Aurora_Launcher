@@ -41,6 +41,14 @@
 
 ---
 
+## База данных
+
+
+
+***Структура базы данных
+<img width="1018" height="852" alt="image" src="https://github.com/user-attachments/assets/274d4849-194b-40ad-b9fc-1b68f3233c48" />
+
+
 **Диаграмма классов**
 
 <img src="https://github.com/user-attachments/assets/4cb362ac-50fd-4df3-b97b-4b241defaf62" width="389" height="520">
