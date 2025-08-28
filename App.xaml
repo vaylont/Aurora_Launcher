@@ -1,0 +1,11 @@
+﻿<Application x:Class="Aurora_Launcher.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="LoginWindow.xaml">
+    <Application.Resources>
+        <!-- Глобальный стиль для всех окон: устанавливаем Icon через Pack URI -->
+        <Style TargetType="Window">
+            <Setter Property="Icon" Value="pack://application:,,,/Resources/ico.ico"/>
+        </Style>
+    </Application.Resources>
+</Application>

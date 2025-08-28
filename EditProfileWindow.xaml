@@ -1,0 +1,23 @@
+﻿<Window x:Class="Aurora_Launcher.EditProfileWindow"
+        Icon="/ico.ico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Редактировать профиль" Height="300" Width="400"
+        WindowStartupLocation="CenterScreen" Background="#1E1E1E">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Новый никнейм:" Foreground="White"/>
+            <TextBox x:Name="NicknameBox" Margin="0,5,0,10"/>
+
+            <TextBlock Text="Аватар (путь к файлу):" Foreground="White"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="AvatarPathBox" Width="250"/>
+                <Button Content="..." Click="BrowseAvatar_Click" Margin="5,0,0,0"/>
+            </StackPanel>
+
+            <Button Content="💾 Сохранить" Click="SaveChanges_Click"
+                    Background="#007ACC" Foreground="White"
+                    FontWeight="Bold" Height="35" Margin="0,20,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>

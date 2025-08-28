@@ -1,0 +1,39 @@
+﻿<Window x:Class="Aurora_Launcher.GameDetailWindow"
+        Icon="/ico.ico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Информация об игре" Height="700" Width="800"
+        WindowStartupLocation="CenterScreen" Background="#1E1E1E">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="BalanceText" FontSize="14" Foreground="LightGreen"
+                   HorizontalAlignment="Right" Grid.Row="0" />
+
+        <StackPanel Orientation="Vertical" Grid.Row="1" Margin="0,20,0,20">
+            <Image x:Name="CoverImage" Height="250" Stretch="Uniform" Margin="0,0,0,20"/>
+            <TextBlock x:Name="TitleText" FontSize="24" FontWeight="Bold" Foreground="White" Margin="0,0,0,10"/>
+            <TextBlock x:Name="DescriptionText" FontSize="14" Foreground="White" TextWrapping="Wrap" Margin="0,0,0,10"/>
+            <TextBlock x:Name="PriceText" FontSize="16" FontWeight="Bold" Foreground="LightGray"/>
+            <TextBlock x:Name="ReleaseDateText" FontSize="14" Foreground="LightGray" Margin="0,5,0,0"/>
+            <TextBlock x:Name="DeveloperText" FontSize="14" Foreground="LightGray" Margin="0,5,0,0"/>
+            <TextBlock x:Name="GenreText" FontSize="14" Foreground="LightGray" Margin="0,5,0,0"/>
+
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Button Content="← Назад" Click="Back_Click"
+                    Height="35" Width="120" Margin="0,0,10,0"
+                    Background="#007ACC" Foreground="White"/>
+            <Button x:Name="BuyButton" Content="🛒 Купить" Click="Buy_Click"
+        Height="35" Width="120"
+        Background="#00CC66" Foreground="White"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

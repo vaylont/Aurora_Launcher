@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Aurora_Launcher</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ico.ico" />
+    <None Remove="jalfm7g6xyftc1woivu3x8p1rndmqvax.png" />
+    <None Remove="profit.webp" />
+    <None Remove="Resources\ico.ico" />
+    <None Remove="Screenshot_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+    <PackageReference Include="SharpCompress" Version="0.40.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ico.ico" />
+    <Resource Include="jalfm7g6xyftc1woivu3x8p1rndmqvax.png" />
+    <Resource Include="profit.webp" />
+    <Resource Include="Resources\ico.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Screenshot_2.png" />
+  </ItemGroup>
+
+</Project>
