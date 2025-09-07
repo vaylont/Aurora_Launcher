@@ -7,37 +7,43 @@
 
 **Окно авторизации**
 
-<img src="https://github.com/user-attachments/assets/6c5ed8a9-2d4c-44d3-80bf-3b978d1866e5" width="483" height="359">
+<img width="478" height="361" alt="image" src="https://github.com/user-attachments/assets/d23e7593-fad2-497f-9c88-7634c141b619" />
+
 
 ---
 
 **Каталог**
 
-<img src="https://github.com/user-attachments/assets/abe45974-2f8d-4efc-97df-f1bbfe559038" width="600">
+<img width="879" height="589" alt="image" src="https://github.com/user-attachments/assets/f10c924a-24af-4091-9bf6-8c39b64de81d" />
+
 
 ---
 
 **Страница игры**
 
-<img src="https://github.com/user-attachments/assets/60be5751-e875-495e-8fc3-b74a9db59506" width="779" height="669">
+<img width="776" height="686" alt="image" src="https://github.com/user-attachments/assets/f297f2c1-90ae-49f1-8f56-b0addfe02168" />
+
 
 ---
 
 **Профиль (админ)**
 
-<img src="https://github.com/user-attachments/assets/1baf1ad3-06ff-4827-ae42-59ebbf62b571" width="781" height="580">
+<img width="787" height="582" alt="image" src="https://github.com/user-attachments/assets/63b55461-013c-4b74-9221-61fc1e7ac801" />
+
 
 ---
 
 **Окно добавления игры**
 
-<img src="https://github.com/user-attachments/assets/b2dc9e96-57e5-4fd3-9174-37b98332a88a" width="437" height="466">
+<img width="427" height="443" alt="image" src="https://github.com/user-attachments/assets/b4f5cf48-6c95-4538-aa3b-758c7f7e6a1b" />
+
 
 ---
 
 **Статистика продаж под конкретного разработчика**
 
-<img src="https://github.com/user-attachments/assets/f71551f9-5fd5-4053-9411-2b17edf1ffed" width="533" height="419">
+<img width="530" height="418" alt="image" src="https://github.com/user-attachments/assets/40043577-cfbe-446c-a768-2db05d7fd6b9" />
+
 
 ---
 
