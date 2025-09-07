@@ -44,10 +44,10 @@ CREATE TABLE purchases (
 );
 
 
-INSERT INTO roles(name) VALUES
-  ('Admin'),
-  ('Developer'),
-  ('User')
+INSERT INTO roles(name) values
+('User')
+('Admin'),
+('Developer'),
 
   ---
   
@@ -60,3 +60,4 @@ insert into developers (name) values
   
 insert into games (title,description,developer_id,cover_url,release_date,download_url,price,genre_id) values
 ('Lies of P','Lies of P — захватывающая игра в жанре soulslike, в которой знакомый сюжет сказки «Пиноккио» развернется в мрачных, но элегантных декорациях Прекрасной эпохи.',1,'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1754552654','2023-09-18','https://stars-clicker.ru/pon.rar',2000,1)
+
