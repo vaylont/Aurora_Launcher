@@ -42,7 +42,7 @@
 ---
 
 ## База данных
-
+SQL код - https://github.com/vaylont/Aurora_Launcher/blob/master/aurora_db.sql
 
 
 **Структура базы данных**
